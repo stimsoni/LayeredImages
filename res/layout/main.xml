@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map_flo_labels"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.example.android.layeredimages.TouchImageView
+        android:id="@+id/map_img_boundries"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:adjustViewBounds="true"
+	/>
+    <com.example.android.layeredimages.TouchImageView
+        android:id="@+id/map_img_grid"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:adjustViewBounds="true"
+	/>
+    <com.example.android.layeredimages.TouchImageView
+        android:id="@+id/map_img_labels"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:adjustViewBounds="true"
+	/>
+</FrameLayout>
